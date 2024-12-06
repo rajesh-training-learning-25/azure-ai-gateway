@@ -40,6 +40,8 @@ This repo explores the **AI Gateway** pattern through a series of experimental l
 
 Acknowledging the rising dominance of Python, particularly in the realm of AI, along with the powerful experimental capabilities of Jupyter notebooks, the following labs are structured around Jupyter notebooks, with step-by-step instructions with Python scripts, [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep) files and [Azure API Management policies](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-policies):
 
+|  |
+| --- |
 | [**🧪 Backend pool load balancing**](labs/backend-pool-load-balancing/backend-pool-load-balancing.ipynb) (built-in) |
 | [![flow](images/backend-pool-load-balancing-small.gif)](labs/backend-pool-load-balancing/backend-pool-load-balancing.ipynb) |
 | Playground to try the built-in load balancing [backend pool functionality of Azure API Management](https://learn.microsoft.com/en-us/azure/api-management/backends?tabs=bicep) to either a list of Azure OpenAI endpoints or mock servers. |
@@ -129,7 +131,6 @@ Acknowledging the rising dominance of Python, particularly in the realm of AI, a
 | [![flow](images/content-filtering-small.gif)](labs/content-filtering/prompt-shielding.ipynb) |
 | Playground to try Prompt Shields from Azure AI Content Safety service that analyzes LLM inputs and detects User Prompt attacks and Document attacks, which are two common types of adversarial inputs. |
 | [�🦾 Bicep](labs/content-filtering/main.bicep) ➕ [⚙️ Policy](labs/content-filtering/prompt-shield-policy.xml) ➕ [🧾 Notebook](labs/content-filtering/prompt-shielding.ipynb) 🟰 [💬](../../issues/53 "Feedback loop discussion") |
-
 ### Backlog of experiments
 
 * Assistants load balancing
