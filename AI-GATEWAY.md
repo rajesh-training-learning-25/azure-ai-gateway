@@ -84,22 +84,6 @@ Playground to try the built-in load balancing backend pool functionality of Azur
 
 ---
 
-Advanced load balancing
-
-Playground to try the advanced load balancing (based on a custom Azure API Management policy) {style="font-size:20px"}
-
-<img src="../images/advanced-load-balancing.gif" alt="drawing" style="width:600px;"/>
-
----
-
-* Loads the load balancer configuration from a named value property.  {style="font-size:20px"}
-* Uses backends to enable the combination with the built-in circuit breaking feature or chaining with the backend pool.  {style="font-size:20px"}
-* The policy doesn't have to be changed to add/modify endpoints or configure the load balancer.  {style="font-size:20px"}
-* Dynamically supports any number of OpenAI endpoints.  {style="font-size:20px"}
-* Support advanced properties like priority or weights to give priority to Provisioned Throughput Unit (PTU).  {style="font-size:20px"}
-
----
-
 Model Routing
 
 Playground to try routing to a backend based on Azure OpenAI model and version  {style="font-size:20px"}
@@ -188,6 +172,26 @@ Summary
 ---
 
 <!-- .slide: data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" -->
+
+## Obsolete Labs
+
+---
+
+These labs should no longer be used as newer solutions exist.
+
+Advanced load balancing
+
+Playground to try the advanced load balancing (based on a custom Azure API Management policy) {style="font-size:20px"}
+
+<img src="../images/advanced-load-balancing.gif" alt="drawing" style="width:600px;"/>
+
+---
+
+* Loads the load balancer configuration from a named value property.  {style="font-size:20px"}
+* Uses backends to enable the combination with the built-in circuit breaking feature or chaining with the backend pool.  {style="font-size:20px"}
+* The policy doesn't have to be changed to add/modify endpoints or configure the load balancer.  {style="font-size:20px"}
+* Dynamically supports any number of OpenAI endpoints.  {style="font-size:20px"}
+* Support advanced properties like priority or weights to give priority to Provisioned Throughput Unit (PTU).  {style="font-size:20px"} -->
 
 ## Want to know more?
 
